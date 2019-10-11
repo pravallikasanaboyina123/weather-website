@@ -1,12 +1,4 @@
 
-//getting puzzle website as a reference
-// fetch('http://puzzle.mead.io/puzzle').then((response) => {
-//     response.json().then((data) => {
-//         console.log(data)
-//     })
-// })
-//getting weather report
-
 /********location search form *******/
 const weatherForm = document.querySelector('form')
 const searchInput = document.querySelector('input')
