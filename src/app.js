@@ -4,6 +4,7 @@
  const geocode = require('./utils/geocode.js')
  const forecast = require('./utils/forecast.js')
  const app = express()
+ const port=process.env.PORT || 8000;
  // console.log(__dirname)
  // console.log(__filename)
  /**********hbs path ************/
@@ -122,6 +123,6 @@
  // app.get('/about',(req, res)=> {
  //     res.send('<h1>About page</h1>')
  //   })
- app.listen(8000, () => {
-   console.log('server is running on port 8000')
+ app.listen(port, () => {
+   console.log('server is running on port' +port)
  })
