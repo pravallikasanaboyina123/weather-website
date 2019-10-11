@@ -5,8 +5,6 @@
  const forecast = require('./utils/forecast.js')
  const app = express()
  const port=process.env.PORT || 8000;
- // console.log(__dirname)
- // console.log(__filename)
  /**********hbs path ************/
  app.set('view engine', 'hbs');
  /**********html files path *********/
